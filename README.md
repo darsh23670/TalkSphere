@@ -41,36 +41,6 @@ This repository contains **everything required to run the project locally**.
 
 ---
 
-##  Project Structure
-
-TalkSphere/
-│
-├── Backend/
-│ ├── config/ # Database and server configuration
-│ ├── controllers/ # Request handling logic
-│ ├── models/ # MongoDB schemas
-│ ├── routes/ # API routes
-│ ├── socket/ # Socket.IO / signaling logic
-│ ├── server.js # Backend entry point
-│ └── package.json # Backend dependencies
-│
-├── Frontend/
-│ ├── public/ # Static assets
-│ ├── src/
-│ │ ├── components/ # Reusable UI components
-│ │ ├── pages/ # Application pages
-│ │ ├── services/ # API & socket services
-│ │ ├── App.js # Main React component
-│ │ └── index.js # React entry point
-│ └── package.json # Frontend dependencies
-│
-├── .gitignore
-└── README.md
-
-
-
----
-
 ##  How to Run the Project Locally
 
 ###  Step 1: Clone the Repository
