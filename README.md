@@ -47,6 +47,7 @@ This repository contains **everything required to run the project locally**.
 
 git clone https://github.com/darsh23670/TalkSphere.git
 cd TalkSphere
+
 Step 2: Install Dependencies
 bash
 Copy code
@@ -55,34 +56,27 @@ npm install
 
 cd ../Frontend
 npm install
+
 Step 3: Environment Configuration
 Create a .env file inside the Backend folder:
-
-env
-Copy code
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
+
 Step 4: Start the Application
 Open two terminals.
 
 Terminal 1 (Backend):
-
-bash
-Copy code
 cd Backend
 npm start
-Terminal 2 (Frontend):
 
-bash
-Copy code
+Terminal 2 (Frontend):
 cd Frontend
 npm start
+
+
 Step 5: Use the Application
 Open your browser and go to:
-
-arduino
-Copy code
 http://localhost:3000
 Create or join a room
 
